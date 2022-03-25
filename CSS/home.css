@@ -1,0 +1,111 @@
+#home{
+    height: 100vh;
+    width: 100%;
+}
+#home nav{
+    height: 4.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#home nav .logo{
+    display: flex;
+    align-items: center;
+}
+#home nav .logo img{
+    margin-right: 1em;
+    height: 1.8em;
+}
+#home nav .logo span{
+    font-size: 1em;
+    font-weight: 700;
+}
+#home nav ul{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+#home nav ul li{
+    list-style-type: none;
+    margin-right: 1em;
+}
+#home nav ul li a{
+    color: #000;
+    text-decoration: none;
+    font-size: .9em;
+}
+#home nav ul li .fa-magnifying-glass{
+    font-size: 1em;
+}
+.fa-magnifying-glass{
+    cursor: pointer;
+}
+#home nav ul li:last-child{
+    margin-right: 0;
+    margin-left: 1em;
+}
+.special{
+    display: none;
+}
+/* main */
+#main{
+    min-height: calc(100vh - 4.5em);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9F8F9;
+}
+#main .container{
+    height: calc(100vh - 4.5em);
+}
+#main .container .row{
+    height: 100%;
+}
+#main .container .row .col-lg-8:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#main .container .row .col-lg-8:nth-child(1) h1{
+    font-size: 5em;
+    font-weight: 700;
+    color: rgb(9, 75, 114);
+}
+#main .container .row .col-lg-8:nth-child(1) p{
+    font-size: 1.2em;
+    text-align: justify;
+}
+#main .container .row .col-lg-8:nth-child(1) a{
+    padding: .9em 1em;
+    width: fit-content;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(9, 75, 114);
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+#main .container .row .col-lg-8:nth-child(1) a:hover{
+    background-color: #fff;
+    color: rgb(9, 75, 114);
+}
+.main-logo {
+    height: 90px;
+    width: 300px;
+}
+.main-logo img{
+    padding: .5em;
+    cursor: pointer;
+}
+#main .container .row .col-lg-4:nth-child(2) {
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  
+}
+#main .container .row .col-lg-4:nth-child(2) img{
+    max-width: auto;
+    height: 100%;
+    cursor: pointer;
+}
